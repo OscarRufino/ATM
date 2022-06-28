@@ -1,0 +1,114 @@
+body {
+        background-color:blue;
+    }
+.outer {
+        text-align: center;
+        position:absolute ;
+        width:440px;
+        height:240px;
+        background-color:silver;
+        top:110px;
+        left:200px;
+        border-style:double ;
+        border-top-left-radius:10px;
+        
+        border-top-right-radius:10px;
+        
+        border-color:black;
+        border-width:5px;
+        border-style:outset;
+        text-shadow:0.5px 0.5px black;
+    }
+    
+
+.login {
+    display: block;
+}
+
+#loginError {
+    color: red;
+    
+}
+
+#menu {
+    display: none;
+    position:absolute ;
+        width:440px;
+        height:240px;
+        background-color:silver;
+        top:110px;
+        left:200px;
+        border-style:double ;
+        border-top-left-radius:10px;
+        
+        border-top-right-radius:10px;
+        
+        border-color:black;
+        border-width:5px;
+        border-style:outset;
+        text-shadow:0.5px 0.5px black;
+}
+
+#currentbalance {
+    text-align: center;
+    display: none;
+    position:absolute ;
+        width:440px;
+        height:240px;
+        background-color:silver;
+        top:110px;
+        left:200px;
+        border-style:double ;
+        border-top-left-radius:10px;
+        
+        border-top-right-radius:10px;
+        
+        border-color:black;
+        border-width:5px;
+        border-style:outset;
+        text-shadow:0.5px 0.5px black;
+}
+#depositar {
+    display: none;
+    text-align: center;
+    position:absolute ;
+        width:440px;
+        height:240px;
+        background-color:silver;
+        top:110px;
+        left:200px;
+        border-style:double ;
+        border-top-left-radius:10px;
+        
+        border-top-right-radius:10px;
+        
+        border-color:black;
+        border-width:5px;
+        border-style:outset;
+        text-shadow:0.5px 0.5px black;
+}
+
+#retirar {
+    display: none;
+    text-align: center;
+    position:absolute ;
+        width:440px;
+        height:240px;
+        background-color:silver;
+        top:110px;
+        left:200px;
+        border-style:double ;
+        border-top-left-radius:10px;
+        
+        border-top-right-radius:10px;
+        
+        border-color:black;
+        border-width:5px;
+        border-style:outset;
+        text-shadow:0.5px 0.5px black;
+}
+
+#exit {
+    margin: 20px;
+
+}

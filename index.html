@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>ATM</title>
+</head>
+<body>
+    
+    <main class="outer" id="inicio">
+        <h1>Bienvenidx a tu ATM</h1>
+        <div id="loginError"></div>
+        <div>
+            <div><label for="Usuario">Usuario</label>
+            <input type="text" name="Usuario" id="usuario"></div>
+            <label for="Contrasena">Contraseña</label>
+            <input type="password" name="Contrasena" id="contrasena">
+            <div><button onclick="login()">Ingresar</button></div>
+        </div>
+    </main>
+    <div class="opciones" id="menu">
+        <h2>Hola! <span id="current"></span></h2>
+        <p>Selecciona la operación que deseas realizar</p>
+        <button id="balance">Consultar Saldo</button>
+
+        <button id="deposit">Hacer un deposito</button>
+        <button id="withdraw">Hacer un retiro</button>
+        <div>
+            <button id="exit">Cerrar sesión</button>
+        </div>
+    </div>
+
+    <div id="currentbalance">
+        <h3> El saldo de tu cuenta es de:</h3>
+        <p id="userbalance">$...</p>
+        <button id="back">Regresar al menu</button>
+    </div>
+
+    <div id="depositar">
+        <h3>Ingresa el monto</h3>
+        <p id="depositError"></p>
+        <p id="updated"></p>
+        <p>
+            <input type="text" id="amount">
+            <button id="makeDeposit">Depositar</button>
+        </p>
+
+        <button id="back2">Regresar al menu</button>
+    </div>
+
+    <div id="retirar">
+        <h3> Ingresa el monto a retirar:</h3>
+        <p id="retiroError"></p>
+        <p id="updated2"></p>
+        <p>
+            <input type="text" id="amount2">
+            <button id="hacerRetiro">Retirar</button>
+        </p>
+        <button id="back3">Regresar al menu</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+<!-- 
+<div class="card" style="width: 18rem;">
+    <img src="consultar.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <a id='balance' href="#" class="btn btn-primary">Consultar Saldo</a>
+    </div>
+<div class="card" style="width: 18rem;">
+    <img src="depositar.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <a id='deposit' href="#" class="btn btn-primary">Depositar</a>
+    </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="retirar.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <a id='withdraw' href="#" class="btn btn-primary">Depositar</a>
+    </div> -->
